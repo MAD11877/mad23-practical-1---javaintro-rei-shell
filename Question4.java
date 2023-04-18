@@ -20,7 +20,7 @@ public class Question4 {
     int number = in.nextInt();
     for (int i = number; i <= number; i--) {
       for (int n = 1; n <= i; n++) {
-        System.out.println("*");
+        System.out.print("*");
       }
       System.out.println("");
     }
