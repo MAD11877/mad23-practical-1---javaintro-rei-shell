@@ -17,10 +17,12 @@ public class Question4 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("*");
-    String star = in.nextLine();
-    for (int i = 0; i <= 5; i++) {
-      System.out.println(i);
+    int number = in.nextInt();
+    for (int i = number; i <= number; i--) {
+      for (int n = 1; n <= i; n++) {
+        System.out.println("*");
+      }
+      System.out.println("");
     }
   }
 }
