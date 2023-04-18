@@ -17,7 +17,7 @@ public class Question4 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Number of base: ");
+    /* System.out.println("Number of base: "); */
     int number = in.nextInt();
     for (int i = number; i <= number; number--) {
       System.out.println("*");

@@ -10,7 +10,7 @@ public class Question3 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Please enter a number: ");
+    /* System.out.println("Please enter a number: "); */
     int number = in.nextInt();
     System.out.println(number * number);
 
