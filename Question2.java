@@ -10,10 +10,10 @@ public class Question2 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter your Height: ");
+    /* System.out.println("Enter your Height: "); */
     double height = in.nextDouble();
 
-    System.out.println("Enter your Weight: ");
+    /* System.out.println("Enter your Weight: "); */
     double weight = in.nextDouble();
     System.out.println(weight / (height * height));
   }
