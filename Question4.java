@@ -17,10 +17,10 @@ public class Question4 {
      */
 
     Scanner in = new Scanner(System.in);
-    /* System.out.println("Number of base: "); */
-    int number = in.nextInt();
-    for (int i = number; i <= number; number--) {
-      System.out.println("*");
+    System.out.println("*");
+    String star = in.nextLine();
+    for (int i = 0; i <= 5; i--) {
+      System.out.println(i);
     }
   }
 }
