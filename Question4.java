@@ -19,7 +19,7 @@ public class Question4 {
     Scanner in = new Scanner(System.in);
     System.out.println("*");
     String star = in.nextLine();
-    for (int i = 0; i <= 5; i--) {
+    for (int i = 0; i <= 5; i++) {
       System.out.println(i);
     }
   }
